@@ -15,7 +15,10 @@
 </head>
 <body>
 <%--导航栏--%>
-<nav class="navbar navbar-default" role="navigation" style="background-color: #222;margin-bottom: 0%">
+<nav class="navbar navbar-default" role="navigation" style="background-color: #222;margin-bottom: 0%;    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;">
     <a class="navbar-brand" href="/" style="color: white">想你所想<img src="/assets/img/title.gif">电影</a>
 
     <div class="col-xs-4">
@@ -351,7 +354,7 @@
                 else
                 {
 //                $("#search-result").html("查无此片");
-                    alert("差不到此电影哦~")
+                    alert("查不到此电影哦~")
                 }
             }
             else {

@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca115e9-051a-40b6-98f6-725edf1c54ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/libraries/Maven__org_springframework_spring_aop_4_1_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/libraries/Maven__org_springframework_spring_expression_4_1_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/libraries/Maven__org_springframework_spring_tx_4_1_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/artifacts/movie_recommend_war_exploded.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/.idea/artifacts/movie_recommend_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/classes/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/controller/IndexController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/movie_recommend.iml" afterPath="$PROJECT_DIR$/../recommend_movie_show/movie_recommend.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/classes/mapper/MovieMapper.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/classes/mapper/MovieMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/mapper/MovieMapper.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/mapper/MovieMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/Home.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/Home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/MovieDescription.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/MovieDescription.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/profile.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/assets/css/__init__.css" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/assets/css/__init__.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spark_Movie_recsys/server.py" afterPath="$PROJECT_DIR$/Spark_Movie_recsys/server.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="category.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/outputmysql2json/category.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -338,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/outputmysql2json/category.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>

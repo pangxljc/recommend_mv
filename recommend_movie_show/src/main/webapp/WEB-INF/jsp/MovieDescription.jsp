@@ -6,7 +6,7 @@
 <html lang="zh-cmn-Hans" class="ua-mac ua-webkit">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>梦的6次方</title>
+    <title>想你所想</title>
 
     <link rel="SHORTCUT ICON" href="/assets/img/knowU.ico"/>
 

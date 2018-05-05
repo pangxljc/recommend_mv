@@ -16,7 +16,7 @@ def get_counts_and_averages(ID_and_ratings_tuple):
 
 
 class RecommendationEngine:
-    """A movie recommendation engine1
+    """A movie recommendation engine
     """
 
     def __count_and_average_ratings(self):
@@ -97,7 +97,7 @@ class RecommendationEngine:
         # return rate
 
     def __init__(self, sc, dataset_path):
-        """Init the recommendation engine1 given a Spark context and a dataset path
+        """Init the recommendation engine given a Spark context and a dataset path
         """
 
         logger.info("Starting up the Recommendation Engine: ")

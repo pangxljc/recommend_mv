@@ -341,7 +341,7 @@
     </if>
   </select>
 <select id="SelectTopDefaultMovie" resultMap="BaseResultMap">
-  SELECT  * FROM topdefaultmovies t,movie m WHERE t.movieid=m.movieid limit #{limit};
+  SELECT  * FROM topdefaultmovies t,movie m WHERE t.movieid=m.movieid AND m.averating >= 4.0 limit 2,#{limit};
 </select>
   <select id="selectByNameLike" resultMap="BaseResultMap" parameterType="java.lang.String">
     select

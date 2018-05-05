@@ -26,7 +26,7 @@ def run_server(app):
     cherrypy.config.update({
         'engine1.autoreload.on': True,
         'log.screen': True,
-        'server.socket_port': 5431,
+        'server.socket_port': 10086,
         'server.socket_host': '127.0.0.1'
     })
  

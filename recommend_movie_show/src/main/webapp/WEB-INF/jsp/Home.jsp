@@ -15,7 +15,10 @@
 </head>
 <body>
 <%--导航栏--%>
-<nav class="navbar navbar-default" role="navigation" style="background-color: #222;margin-bottom: 0%">
+<nav class="navbar navbar-default" role="navigation" style="background-color: #222;margin-bottom: 0%;    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;">
     <a class="navbar-brand" href="/" style="color: white">想你所想<img src="/assets/img/title.gif">电影</a>
 
     <div class="col-xs-4">
@@ -316,6 +319,36 @@
             $("p[name='moviedirector']").text("Directed by ${sessionScope.TopDefaultMovie[0].director}");
             $("p[name='movietype']").text("Type:${sessionScope.TopDefaultMovie[0].typelist}");
         }
+        <%--if(m[movieid]==4)--%>
+        <%--{--%>
+            <%--var url="${sessionScope.TopDefaultMovie[5].backpost}";--%>
+            <%--$("#wholediv").css('background-image',"url("+url+")" );--%>
+            <%--$("a[name=\"moviehref\"]").attr("href","http://so.iqiyi.com/so/q_${sessionScope.TopDefaultMovie[5].moviename}");--%>
+            <%--$("a[name=\"moviedesc\"]").attr("value","${sessionScope.TopDefaultMovie[5].movieid}");--%>
+            <%--$("a[name='movienametag']").attr("value","${sessionScope.TopDefaultMovie[5].movieid}");--%>
+            <%--$("a[name='movienametag']").attr("data-original-title","点击查看${sessionScope.TopDefaultMovie[5].moviename}的详细资料");--%>
+            <%--$("a[name='movienametag']").text("${sessionScope.TopDefaultMovie[5].moviename}");--%>
+            <%--$("a[name='movieaverating']").attr("value","${sessionScope.TopDefaultMovie[5].movieid}");--%>
+            <%--$("a[name='movieaverating']").text("Score:${sessionScope.TopDefaultMovie[5].averating}");--%>
+            <%--$("p[name='moviedescription']").text("${sessionScope.TopDefaultMovie[5].description}");--%>
+            <%--$("p[name='moviedirector']").text("Directed by ${sessionScope.TopDefaultMovie[5].director}");--%>
+            <%--$("p[name='movietype']").text("Type:${sessionScope.TopDefaultMovie[5].typelist}");--%>
+        <%--}--%>
+        <%--if(m[movieid]==5)--%>
+        <%--{--%>
+            <%--var url="${sessionScope.TopDefaultMovie[5].backpost}";--%>
+            <%--$("#wholediv").css('background-image',"url("+url+")" );--%>
+            <%--$("a[name=\"moviehref\"]").attr("href","http://so.iqiyi.com/so/q_${sessionScope.TopDefaultMovie[0].moviename}");--%>
+            <%--$("a[name=\"moviedesc\"]").attr("value","${sessionScope.TopDefaultMovie[0].movieid}");--%>
+            <%--$("a[name='movienametag']").attr("value","${sessionScope.TopDefaultMovie[0].movieid}");--%>
+            <%--$("a[name='movienametag']").attr("data-original-title","点击查看${sessionScope.TopDefaultMovie[0].moviename}的详细资料");--%>
+            <%--$("a[name='movienametag']").text("${sessionScope.TopDefaultMovie[0].moviename}");--%>
+            <%--$("a[name='movieaverating']").attr("value","${sessionScope.TopDefaultMovie[0].movieid}");--%>
+            <%--$("a[name='movieaverating']").text("Score:${sessionScope.TopDefaultMovie[0].averating}");--%>
+            <%--$("p[name='moviedescription']").text("${sessionScope.TopDefaultMovie[0].description}");--%>
+            <%--$("p[name='moviedirector']").text("Directed by ${sessionScope.TopDefaultMovie[0].director}");--%>
+            <%--$("p[name='movietype']").text("Type:${sessionScope.TopDefaultMovie[0].typelist}");--%>
+        <%--}--%>
 
     });
 </script>
@@ -351,7 +384,7 @@
                 else
                 {
 //                $("#search-result").html("查无此片");
-                    alert("差不到此电影哦~")
+                    alert("查不到此电影哦~")
                 }
             }
             else {

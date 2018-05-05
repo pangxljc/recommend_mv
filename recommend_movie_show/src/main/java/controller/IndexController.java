@@ -19,9 +19,6 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * Created by ZXL on 2018/3/1.
- */
 
 @Controller
 public class IndexController {

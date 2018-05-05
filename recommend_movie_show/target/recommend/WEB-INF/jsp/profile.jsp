@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title data-react-helmet="true">梦的6次方</title>
+    <title data-react-helmet="true">想你所想</title>
     <link rel="SHORTCUT ICON" href="/assets/img/knowU.ico"/>
     <link data-react-helmet="true" rel="prefetch" href="/assets/img/user_cover_image.jpg"/>
     <script src="/assets/js/jquery.js"></script>

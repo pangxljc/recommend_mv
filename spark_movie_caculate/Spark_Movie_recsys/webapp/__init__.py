@@ -1,15 +1,16 @@
 from flask import Flask
 from flask.ext.bootstrap import Bootstrap
 from flask.ext.moment import Moment
-import sys
-sys.path.append("/Users/luo/Desktop/github/Spark_Movie_recsys/engine1")
-from engine1.rec_engine import RecommendationEngine
+#import sys
+#sys.path.append("/Users/luo/Desktop/github/Spark_Movie_recsys/engine")
+from engine.rec_engine import RecommendationEngine
 
 
 bootstrap = Bootstrap()
 moment = Moment()
 #global recommendation_engine
 def create_app(spark_context, dataset_path):
+    from engine.rec_engine import RecommendationEngine
     global recommendation_engine
     recommendation_engine = RecommendationEngine(spark_context, dataset_path)
 

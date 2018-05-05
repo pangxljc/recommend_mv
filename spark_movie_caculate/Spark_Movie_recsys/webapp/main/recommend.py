@@ -1,6 +1,6 @@
 import json
 from . import main
-from .. import recommendation_engine
+#from .. import recommendation_engine
  
 import logging
 logging.basicConfig(level=logging.INFO)
@@ -14,6 +14,7 @@ def user_recommend(user_id):
     if not recommend_nums:
         recommend_nums = 5
     logger.debug("User %s TOP ratings requested", user_id)
+    from .. import recommendation_engine
     top_ratings = recommendation_engine.get_top_ratings(user_id,recommend_nums)
     genre_info = current_app.config['GENRE_COLLECTION'].find_one({},{"_id":0})
     recommend_info = []
@@ -57,7 +58,7 @@ def movie_ratings(user_id, movie_id):
 #     ratings_list = map(lambda x: x.split(","), ratings_list)
 #     # create a list with the format required by the negine (user_id, movie_id, rating)
 #     ratings = map(lambda x: (user_id, int(x[0]), float(x[1])), ratings_list)
-#     # add them to the model using then engine1 API
+#     # add them to the model using then engine API
 #     recommendation_engine.add_ratings(ratings)
  
 #     return json.dumps(ratings)

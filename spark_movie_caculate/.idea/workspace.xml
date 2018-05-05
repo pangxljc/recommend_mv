@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca115e9-051a-40b6-98f6-725edf1c54ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/classes/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/classes/mapper/MovieMapper.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/classes/mapper/MovieMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/mapper/MovieMapper.xml" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/classes/mapper/MovieMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/Home.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/Home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/MovieDescription.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/MovieDescription.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/profile.jsp" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/WEB-INF/jsp/profile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/assets/css/__init__.css" afterPath="$PROJECT_DIR$/../recommend_movie_show/target/recommend/assets/css/__init__.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="eca115e9-051a-40b6-98f6-725edf1c54ab" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,76 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spark_movie_caculate$server.coverage" NAME="server Coverage Results" MODIFIED="1525488251454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spark_Movie_recsys" />
+    <SUITE FILE_PATH="coverage/spark_movie_caculate$server.coverage" NAME="server Coverage Results" MODIFIED="1525491291712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spark_Movie_recsys" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputmysql2json/movie.csv">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/outputmysql2json/category.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moviecategory.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputmysql2json/moviecategory.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="similartab.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputmysql2json/similartab.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/webapp/main/users.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/webapp/main/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -151,12 +77,11 @@
             <path>
               <item name="spark_movie_caculate" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_movie_caculate" type="462c0819:PsiDirectoryNode" />
-              <item name="outputmysql2json" type="462c0819:PsiDirectoryNode" />
+              <item name="Spark_Movie_recsys" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_movie_caculate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_movie_caculate" type="462c0819:PsiDirectoryNode" />
-              <item name="Spark_Movie_recsys" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -291,23 +216,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/webapp/main/forms.py">
+    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/dataset/data_model/user.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/server.py">
+    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/dataset/data_model/ratings.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/dataset/data_model/movies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/dataset/data_model/genre.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -327,6 +264,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/outputmysql2json/category.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/outputmysql2json/movie.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="0">
@@ -334,11 +279,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputmysql2json/category.csv">
+    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/webapp/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_Movie_recsys/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

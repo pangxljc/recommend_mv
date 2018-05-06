@@ -10,7 +10,7 @@ def init_spark_context():
     conf = SparkConf().setAppName("movie_recommendation-server").setMaster("spark://luodeMacBook-Pro.local:7077").set("spark.driver.allowMultipleContexts", "true").set("spark.executor.memory", "512m").set("spark.cores.max","3")
     # IMPORTANT: pass aditional Python modules to each worker
     # sc = SparkContext(conf=conf, pyFiles=['rec_engine.py', 'app.py'])
-    sc = SparkContext(conf=conf,pyFiles=['engine/rec_engine.py'])
+    sc = SparkContext(conf=conf,pyFiles=['engine.zip','webapp.zip'])
  
     return sc
  
@@ -38,7 +38,7 @@ def run_server(app):
 if __name__ == "__main__":
     # Init spark context and load libraries
     sc = init_spark_context()
-    dataset_path = os.path.join('dataset','ml-latest-small')
+    dataset_path = os.path.join('dataset','data_model')
     app = create_app(sc, dataset_path)
  
     # start web server

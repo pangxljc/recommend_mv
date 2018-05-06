@@ -10,7 +10,7 @@ bootstrap = Bootstrap()
 moment = Moment()
 #global recommendation_engine
 def create_app(spark_context, dataset_path):
-    from engine.rec_engine import RecommendationEngine
+    # from engine.rec_engine import RecommendationEngine
     global recommendation_engine
     recommendation_engine = RecommendationEngine(spark_context, dataset_path)
 

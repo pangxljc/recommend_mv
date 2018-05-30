@@ -4,9 +4,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import po.Browse;
 import po.User;
 
-/**
- * Created by ZXL on 2018/3/1.
- */
 public interface RegisterService {
     //检查输入是否合法实时检测
     public E3Result checkData(String param, int type);

@@ -11,9 +11,6 @@ import service.LoginService;
 
 import java.util.List;
 
-/**
- * Created by ZXL on 2018/3/2.
- */
 
 @Service
 public class LoginServiceImpl implements LoginService {

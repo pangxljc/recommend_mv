@@ -6,7 +6,7 @@
 <html lang="zh-cmn-Hans" class="ua-mac ua-webkit">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>想你所想</title>
+    <title>聆听你的声音</title>
 
     <link rel="SHORTCUT ICON" href="/assets/img/knowU.ico"/>
 
@@ -47,7 +47,7 @@
 
 <!-- 导航栏-->
 <nav class="navbar navbar-default" role="navigation" style="background-color: black;margin-bottom: 0%">
-    <a class="navbar-brand" href="/" style="color: white">懂你<img src="/assets/img/title.gif">电影</a>
+    <a class="navbar-brand" href="/" style="color: white">聆听你的声音<img src="/assets/img/title.gif">电影</a>
 
     <div class="col-xs-4">
         <input id="inp-query" class="form-control"
@@ -175,24 +175,24 @@
             <!--右侧电影信息等栏目 -->
             <div class="col-sm-8">
 
-                <!-- 分享链接栏 -->
-                <div id="atstbx2" style="float: right;margin-top: -7%"
-                     class="at-share-tbx-element addthis-smartlayers addthis-animated at4-show">
-                    <div class="at-share-btn-elements" style="float: right;margin-top: -10%">
-                        <a id="wbshareBtn" href="javascript:void(0)" target="_blank" class="at-icon-wrapper at-share-btn at-svc-email" style=" border-radius: 0%;">
-                            <img style="line-height: 32px; height: 32px; width: 32px;"
-                                 src="https://www.vmovier.com/Public/Home/images/baidu-weibo-v2.png?20160109"/>
-                        </a>
-                        <a id="qzoneshareBtn" href="javascript:void(0)" target="_blank" class="at-icon-wrapper at-share-btn at-svc-bitly" style=" border-radius: 0%;">
-                            <img style="line-height: 32px; height: 32px; width: 32px;"
-                                 src="https://www.vmovier.com/Public/Home/images/baidu-qzone-v2.png?20160109"/>
-                        </a>
-                        <a id="qqshareBtn" target="_blank" class="at-icon-wrapper at-share-btn at-svc-bitly" style=" border-radius: 0%;">
-                            <img style="line-height: 32px; height: 32px; width: 32px;"
-                                 src="https://www.vmovier.com/Public/Home/images/baibu-qq-v2.png?20160109"/>
-                        </a>
-                    </div>
-                </div>
+                <%--<!-- 分享链接栏 -->--%>
+                <%--<div id="atstbx2" style="float: right;margin-top: -7%"--%>
+                     <%--class="at-share-tbx-element addthis-smartlayers addthis-animated at4-show">--%>
+                    <%--<div class="at-share-btn-elements" style="float: right;margin-top: -10%">--%>
+                        <%--<a id="wbshareBtn" href="javascript:void(0)" target="_blank" class="at-icon-wrapper at-share-btn at-svc-email" style=" border-radius: 0%;">--%>
+                            <%--<img style="line-height: 32px; height: 32px; width: 32px;"--%>
+                                 <%--src="https://www.vmovier.com/Public/Home/images/baidu-weibo-v2.png?20160109"/>--%>
+                        <%--</a>--%>
+                        <%--<a id="qzoneshareBtn" href="javascript:void(0)" target="_blank" class="at-icon-wrapper at-share-btn at-svc-bitly" style=" border-radius: 0%;">--%>
+                            <%--<img style="line-height: 32px; height: 32px; width: 32px;"--%>
+                                 <%--src="https://www.vmovier.com/Public/Home/images/baidu-qzone-v2.png?20160109"/>--%>
+                        <%--</a>--%>
+                        <%--<a id="qqshareBtn" target="_blank" class="at-icon-wrapper at-share-btn at-svc-bitly" style=" border-radius: 0%;">--%>
+                            <%--<img style="line-height: 32px; height: 32px; width: 32px;"--%>
+                                 <%--src="https://www.vmovier.com/Public/Home/images/baibu-qq-v2.png?20160109"/>--%>
+                        <%--</a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
 
                 <!-- Nav tabs 信息切换栏-->
                 <ul class="nav nav-tabs" role="tablist">
@@ -552,7 +552,7 @@
     function qzoneShare(){
         var qzone_shareBtn = document.getElementById("qzoneshareBtn")
         qzone_url = document.URL, //获取当前页面地址，也可自定义例：wb_url = "http://liuyanzhao.com"
-            qzone_title = "电影名称：${sessionScope.moviedescription.moviename}（来自梦的6次方）",
+            qzone_title = "电影名称：${sessionScope.moviedescription.moviename}",
             qzone_pic = "",
             qzone_language = "zh_cn";
         qzone_shareBtn.setAttribute("href","http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+qzone_url+"&title="+qzone_title+"&pic="+qzone_pic+"&language="+qzone_language+"");
@@ -563,7 +563,7 @@
         var qq_shareBtn = document.getElementById("qqshareBtn")
         qq_url = document.URL, //获取当前页面地址，也可自定义例：wb_url = "http://liuyanzhao.com"
 //            qq_appkey = "3118689721",//你的app key
-            qq_title = "电影名称：${sessionScope.moviedescription.moviename}（来自梦的6次方）",
+            qq_title = "电影名称：${sessionScope.moviedescription.moviename}",
 //            wb_ralateUid = "5936412667",//微博id，获得你的用户名
             qq_pic = "",
             qq_language = "zh_cn";
@@ -575,7 +575,7 @@
         var wb_shareBtn = document.getElementById("wbshareBtn")
         wb_url = document.URL, //获取当前页面地址，也可自定义例：wb_url = "http://liuyanzhao.com"
             wb_appkey = "3118689721",//你的app key
-            wb_title = "电影：${sessionScope.moviedescription.moviename}（来自梦的6次方）",
+            wb_title = "电影：${sessionScope.moviedescription.moviename}",
             wb_pic = "",
             wb_language = "zh_cn";
         wb_shareBtn.setAttribute("href","http://service.weibo.com/share/share.php?url="+wb_url+"&appkey="+wb_appkey+"&title="+wb_title+"&pic="+wb_pic+"&language="+wb_language+"");

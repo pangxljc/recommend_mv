@@ -10,7 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>
-        想你所想
+        聆听你的声音
     </title>
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
@@ -100,7 +100,7 @@
 
 <!-- 导航栏-->
 <nav class="navbar navbar-default" role="navigation" style="background-color: black;margin-bottom: 0%;position: fixed;top: 0;left: 0;right: 0;z-index: 200">
-    <a class="navbar-brand" href="/" style="color: white">想你所想<img src="/assets/img/title.gif"></a>
+    <a class="navbar-brand" href="/" style="color: white">聆听你的声音<img src="/assets/img/title.gif"></a>
 
     <div class="col-xs-4">
         <input id="inp-query" class="form-control" style="margin-bottom: 8px;margin-top: 8px;border-radius: 5px;" name="search_text"  maxlength="60" placeholder="搜索电影" value="">
@@ -222,24 +222,24 @@
             <!-- 右侧推荐模块（基本未修改/后期可修改）-->
 
             <div  class="aside">
-                <h1 style="margin-top: -45px;margin-left: -100px;">电影推荐</h1>
-                <div id="doulist" style="width: 350px;margin-left: -100px">
-                    <ul>
-                        <li>
-                            <span>3381推荐</span>
-                            <div class="title"><a  target="_blank" href="https://www.douban.com/doulist/30327/">100部爱情电影 经典的回味</a></div>
-                        </li>
-                        <li>
-                            <span>1159推荐</span>
-                            <div class="title"><a  target="_blank" href="https://www.douban.com/doulist/31478/">很轻的电影和很重的人生</a></div>
-                        </li>
-                        <li>
-                            <span>3381推荐</span>
-                            <div class="title"><a   target="_blank" href="https://www.douban.com/doulist/200218/">得此两百部，足以度余生</a></div>
-                        </li>
+                <%--<h1 style="margin-top: -45px;margin-left: -100px;">电影推荐</h1>--%>
+                <%--<div id="doulist" style="width: 350px;margin-left: -100px">--%>
+                    <%--<ul>--%>
+                        <%--<li>--%>
+                            <%--<span>3381推荐</span>--%>
+                            <%--<div class="title"><a  target="_blank" href="https://www.douban.com/doulist/30327/">100部爱情电影 经典的回味</a></div>--%>
+                        <%--</li>--%>
+                        <%--<li>--%>
+                            <%--<span>1159推荐</span>--%>
+                            <%--<div class="title"><a  target="_blank" href="https://www.douban.com/doulist/31478/">很轻的电影和很重的人生</a></div>--%>
+                        <%--</li>--%>
+                        <%--<li>--%>
+                            <%--<span>3381推荐</span>--%>
+                            <%--<div class="title"><a   target="_blank" href="https://www.douban.com/doulist/200218/">得此两百部，足以度余生</a></div>--%>
+                        <%--</li>--%>
 
-                    </ul>
-                </div>
+                    <%--</ul>--%>
+                <%--</div>--%>
                 <!-- 推荐模块默认五个-->
                 <div  style="margin-left: -30px;margin-top: -7px">
                     <div id="myCarousel" class="carousel slide"  data-ride="carousel" style=" margin-top: 35px ;width: 370px;margin-left: -80px">

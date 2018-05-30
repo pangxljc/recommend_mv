@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title data-react-helmet="true">想你所想</title>
+    <title data-react-helmet="true">聆听你的声音</title>
     <link rel="SHORTCUT ICON" href="/assets/img/knowU.ico"/>
     <link data-react-helmet="true" rel="prefetch" href="/assets/img/user_cover_image.jpg"/>
     <script src="/assets/js/jquery.js"></script>
@@ -102,7 +102,7 @@
                                  data-reactid="77">
                                 <div class="UserAvatar" data-reactid="78">
                                     <img class="Avatar Avatar--large UserAvatar-inner" width="160" height="160"
-                                         src="/assets/img/user_avatar.jpg" srcset="/assets/img/user_avatar.jpg 2x"
+                                         src="/assets/img/back.jpg" srcset="/assets/img/back.jpg 2x"
                                          data-reactid="79"/>
                                 </div>
                             </div>

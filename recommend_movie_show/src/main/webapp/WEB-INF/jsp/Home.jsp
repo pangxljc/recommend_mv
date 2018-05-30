@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>
-        想你所想
+        聆听你的声音
     </title>
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
@@ -19,7 +19,7 @@
     top: 0;
     right: 0;
     left: 0;">
-    <a class="navbar-brand" href="/" style="color: white">想你所想<img src="/assets/img/title.gif">电影</a>
+    <a class="navbar-brand" href="/" style="color: white">聆听你的声音<img src="/assets/img/title.gif">电影</a>
 
     <div class="col-xs-4">
         <input id="inp-query" class="form-control" style="margin-bottom: 8px;margin-top: 8px;border-radius: 5px;" name="search_text"  maxlength="60" placeholder="搜索电影" value="">

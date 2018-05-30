@@ -11,9 +11,6 @@ import service.AlsService;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ZXL on 2018/3/29.
- */
 @Service
 public class AlsServiceImpl implements AlsService {
 
